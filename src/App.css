@@ -1,0 +1,592 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* 
+.heading{
+  display:flex;
+top: 0px;
+left: 0px;
+height: 80px;
+background: #FBF3E4 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 59px #B9164614;
+opacity: 1; */
+  
+/* } */
+@media (min-width:600px){
+  .heading{
+    display:block;
+    display:flex;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    background: #FBF3E4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 59px #B9164614;
+    opacity: 1;
+  }
+  .order{
+    display:flex;
+    margin-left: 570px;
+ }
+ .list{
+  margin-left: 30px;
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+}
+
+
+/* .order{
+  display:flex;
+  margin-left: 570px;
+ */
+
+/* } */
+/* .list{
+  margin-left: 30px;
+  list-style-type: none;
+  padding-top: 20px;
+} */
+
+
+.secondbox{
+  /* top: 0px;
+  left: 0px; */
+  height: 380px;
+  background-color:#105652;
+  position:relative;
+  text-indent: 70px;
+  padding-top: 50px;
+
+  
+}
+.textone{
+  margin-top: 50px;
+}
+
+.btn1{
+  margin:20px;
+  margin-left: 65px;
+  box-shadow: 1px 1px 6px white;
+  transition: height 2s;
+ 
+ 
+}
+
+.btn1:hover{
+  height:40px;
+}
+.btn2{
+
+  margin:20px;
+  margin-left: 65px;
+  box-shadow: 1px 1px 6px white;
+  transition: height 2s; 
+}
+.btn2:hover{
+  height:40px;
+}
+.guy{
+  height:350px;
+  position:absolute;
+  left:38vw;
+  top:28px;
+
+}
+
+@media(max-width:600px){
+  .secondbox{
+    top: 0px;
+    left: 0px;
+    height: 50vh;
+    background-color:#105652;
+    text-indent: 0px;
+    padding-top: 0px;
+  }
+  .textone{
+    margin-top: 0px;
+    
+  }
+
+
+  .btn1{
+    margin:5px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 6px white;
+    transition: height 2s;
+   }
+   .btn1:hover{
+    height:40px;
+  }
+  .btn2{
+
+    margin:3px;
+    margin-left: 5px;
+    box-shadow: 1px 1px 6px white;
+    transition: height 2s; 
+  }
+  .btn2:hover{
+    height:40px;
+  }
+  .guy{
+    height:250px;
+    position:absolute;
+    left:13vw;
+    top:100px;
+  }
+  
+}
+
+.thirdcontainer{
+  border-radius:25px;
+  border:3px solid white;
+  background-color: aliceblue;
+  margin:50px;
+  margin-left:17vw;
+  display:flex;
+  width:70vw;
+ 
+
+
+}
+.guytwo{
+  position:relative;
+  top:18px
+}
+.about{
+  color:green;
+  border-bottom: 5px solid #FCA738 ;
+  width:130px;
+}
+.tech{
+  margin:25px;
+  box-shadow: 5px 5px 6px white;
+  
+}
+.logos{
+  margin-left: 17px;
+  
+}
+
+@media(max-width:600px){
+  .thirdcontainer{
+    border-radius:25px;
+    border:3px solid white;
+    background-color: aliceblue;
+    margin:1px;
+    margin-left:8vw;
+    display:flex;
+    width:85vw;
+    font-size: x-small;
+    
+ }
+ .guytwo{
+  height:150px;
+  position:relative;
+  top:18px;
+}
+.about{
+  color:green;
+  border-bottom: 5px solid #FCA738 ;
+  width:130px;
+}
+.aboutme{
+  width:40vw;
+}
+.tech{
+  margin:2px;
+ font-size: 12px;
+  box-shadow: 5px 5px 6px white;
+  margin-left:-10px;
+  font-size: x-small;
+  
+}
+.logos{
+  margin-left:-100px;
+  height:20px;
+  margin:2px;
+}
+
+}
+.portfolio{
+  margin-bottom: 30px;
+}
+.portheading{
+  width:300px;
+  text-align: center;
+  color:green;
+  border-bottom: 4px solid  #FCA738 ;
+  margin-left: 35vw;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.link{
+
+ display:grid;
+ grid-template-columns: 340px 340px 340px  ;
+row-gap: 20px;
+column-gap: 80px;
+}
+.projectone{
+  height:220px;
+  transition: height,2s;
+}
+.projectone:hover{
+  height:160px;
+}
+.cardsone{
+  background-image:linear-gradient(purple,black );
+}
+
+@media(max-width:600px){
+  .portfolio{
+    margin-bottom: 10px;
+  }
+  .portheading{
+    font-size: 12px;
+    width:140px;
+    text-align: center;
+    color:green;
+    border-bottom: 2px solid  #FCA738 ;
+    margin-left:25vw;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    font-size: large;
+  }
+  .link{
+   display:grid;
+   grid-template-columns: 120px 120px 120px;
+   row-gap: 15px;
+   column-gap: 55px;
+   
+   }
+   .projectone{
+    height:80px;
+    transition: height,2s;
+  }
+}
+
+.resumeform{
+  width:150px;
+  text-align: center;
+  color:green;
+  border-bottom:5px solid #FCA738;
+  margin-left: 40vw;
+
+}
+
+.work{
+  width:60vw;
+  background-image: linear-gradient(orange,green);
+  border:2px solid white;
+  border-radius: 25px;
+  margin-left: 30px;
+
+}
+.workexp{
+  width:40vw;
+  border-bottom:1px solid black;
+  padding-bottom: 10px;
+
+}
+.educ{
+  width:40vw;
+  border-bottom:1px solid black ;
+  padding-bottom: 10px;
+
+}
+.year{
+  margin-left: 230px;
+}
+.college{
+  margin-left: 100px;
+}
+.branch{
+  margin-left: 100px;
+}
+.yeari{
+  margin-left: 300px;
+}
+.yearsc{
+  margin-left: 310px;
+}
+.schooln{
+  margin-left: 100px;
+}
+.schoolc{
+  margin-left: 100px;
+}
+.thumb{
+  width:fit-content;
+  position:absolute;
+  left:66vw;
+  top:80px;
+  z-index: 10;
+}
+.resumeimg{
+  height:350px;
+  margin-bottom: 15px;
+  border:2px solid white;
+  background-color: white;
+}
+.web{
+  width:200px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 70px;
+}
+.githubi{
+  margin-left: 18px;
+}
+.githubl{
+  margin-left: 18px;
+  height:43px;
+}
+
+.resumeone{
+  background-image:linear-gradient(purple,black );
+}
+
+@media(max-width:600px){
+  .resumeform{
+    width:130px;
+    text-align: center;
+    color:green;
+    border-bottom:5px solid #FCA738;
+    margin-left: 23vw;
+    font-size: large;
+  }
+  .work{
+    width:55vw;
+    background-image: linear-gradient(orange,green);
+    border:2px solid white;
+    border-radius: 25px;
+    margin-left: 10px;
+   }
+   .workexp{
+    width:40vw;
+    border-bottom:1px solid black;
+    padding-bottom: 10px;
+    font-size: x-small;
+  
+  }
+  .stack{
+    font-size: x-small;
+  }
+  .educ{
+    width:40vw;
+    border-bottom:1px solid black ;
+    padding-bottom: 10px;
+    font-size: x-small;
+  
+  }
+   .grad{
+    font-size: x-small;
+   
+   }
+   .year{
+    margin:14px;
+  }
+  .yeari{
+    margin:19px;
+  }
+  .yearsc{
+    margin:25px;
+  }
+  .thumb{
+    width:30vw;
+    position:absolute;
+    left:60vw;
+    top:88px;
+    z-index: 10;
+  }
+  .resumeimg{
+    height:150px;
+    margin-bottom: 15px;
+    border:2px solid white;
+    background-color: white;
+  }
+  .web{
+    width:200px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 0px;
+  }
+  .githubi{
+    margin-left: 18px;
+    height:30px;
+  }
+  .githubl{
+    margin-left: 18px;
+    height:30px;
+  }
+
+
+}
+
+.connect{
+  background-color: lightgray;
+  background-image:linear-gradient(purple,black );
+  
+}
+.contact{
+  width:190px;
+  color:green;
+  border-bottom: 5px solid #FCA738;
+  margin-left: 40vw;;
+}
+.fourcontainer{
+  width:97vw;
+  display:flex;
+  margin-left:0vw;
+  flex-direction: row;
+  background-image:linear-gradient(purple,black );
+}
+.mail{
+  margin:5px;
+}
+.textarea{
+  margin-left: 0px;
+  width:189px
+}
+.btn3{
+  margin-left: 40px;
+  margin:5px;
+}
+.details{
+  padding:80px;
+  width:30vw;
+  background-color: aliceblue;
+}
+.message{
+  background-color:#FCA738;
+  width:30vw;
+  margin-left: 75px;;
+  padding:80px;
+  display:flex;
+  flex-wrap: wrap;
+}
+.formone{
+  display:flex;
+ 
+}
+.thankyou{
+  
+  position:absolute;
+  bottom:10px;
+  right:130px
+
+}
+
+
+@media(max-width:600px){
+  .connect{
+    background-color: lightgray;
+    background-image:linear-gradient(purple,black );
+    
+  }
+  .contact{
+    width:140px;
+    color:green;
+    border-bottom: 5px solid #FCA738;
+    margin-left: 30vw;;
+    font-size: large;
+  }
+  .fourcontainer{
+    width:90vw;
+    display:flex;
+    margin-left:0px;
+    flex-direction: row;
+    background-image:linear-gradient(purple,black );
+  }
+  .details{
+    padding:10px;
+    width:35vw;
+    background-color: aliceblue;
+    font-size: x-small;
+  }
+  .mail{
+    margin:1px;
+    height:10px;
+  }
+  .message{
+    background-color:#FCA738;
+    width:40vw;
+    margin-left:2px;;
+    padding:15px;
+    display:flex;
+    flex-wrap: wrap;
+    font-size: x-small;
+  }
+  .send{
+    font-size: small;
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .textarea{
+    margin-left: 0px;
+    width:130px
+  }
+  .click{
+    width:140px;
+    margin-left: 0px;
+    margin:5px;
+    font-size:10px;
+    padding: 0px;
+  }
+  .formone{
+    display:flex;
+    margin-left: 20px;
+   
+  }
+  
+  
+  .thanks{
+    height:160px;
+    position:relative;
+    bottom: 0px;
+    left:120px;
+  }
+
+}
+
+
+
+
