@@ -15,9 +15,9 @@ const Connect = () => {
       <div className="details">
         <h3 className="send">Let's Connect</h3>
         <p>I am from Telangana state and i will stay in Hyderabad.I will be avaliable on my mail and my phone,You can Contact me at any time</p>
-        <p><img className="mail"  src={email}/>:thammaliabhishek05@gmail.com</p>
-        <p ><img className="mail"  src={phone}/>:7995564800</p>
-        <p><img className="mail"   src={mark}/>:HYDERABAD</p>
+        <p><img className="mail"  src={email} alt=''/>:thammaliabhishek05@gmail.com</p>
+        <p ><img className="mail"  src={phone} alt=''/>:7995564800</p>
+        <p><img className="mail"   src={mark} alt=''/>:HYDERABAD</p>
       </div>
       <div className="message" > 
           <h3 className="send">Send me a message</h3>
@@ -36,7 +36,7 @@ const Connect = () => {
           </div>
         </div>
         <div className="thankyou">
-            <img className="thanks" src={thankyou}/>
+            <img className="thanks" src={thankyou} alt=''/>
           </div>
 
      </div>

@@ -14,7 +14,7 @@ const Education = () => {
           <div className="card-body work" >
              <h2 className="workexp">Work Experience</h2>
              <h3 className="stack">⚪FULL STACK DEVELOPER📰💻📲 (undergone-Training🧑‍💻)</h3>
-             <h5 className="stack">🔹PREPBYTES🧑‍💻🧑‍💻 <span> 6 Months</span></h5>
+             <h5 className="stack">🔹Company:PREPBYTES🧑‍💻🧑‍💻 <span> 6 Months</span></h5>
           </div>
           <div className="card-body work">
             <h2 className="educ"><b>Education</b></h2>
@@ -29,11 +29,11 @@ const Education = () => {
             <h5 className="grad">🔹SSC</h5>
           </div>
           <div className="thumb">
-              <img className="resumeimg" src={resume}/>
+              <img className="resumeimg" src={resume} alt=''/>
               <div className="web">
-              <a href="https://github.com/thammaliabhishek" target="blank">  <img className="githubi" src={github}/></a>
-                <a href="https://www.linkedin.com/in/thammali-abhishek-b820301a2/" target="blank"><img className="githubl" src={lin}/></a>
-                <img className="githubl" src={facebook} />
+              <a href="https://github.com/thammaliabhishek" target="blank">  <img className="githubi" src={github} alt=''/></a>
+                <a href="https://www.linkedin.com/in/thammali-abhishek-b820301a2/" target="blank"><img className="githubl" src={lin} alt=''/></a>
+                <img className="githubl" src={facebook} alt=''/>
               </div>
             </div>
     </div>
